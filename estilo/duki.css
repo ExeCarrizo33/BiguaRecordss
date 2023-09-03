@@ -139,7 +139,7 @@ h2.titulo2 {
 }
 .album-container {
     width: 68%;
-    height: 90vh;
+    height: 95vh;
     top: 100px;
     position: relative;
     margin: 0 auto;
@@ -248,10 +248,8 @@ h2.titulo2 {
     width: 18rem;
     height: 18rem;
 }
+*/
 
 .separador-bordes2 {
-    width: 100%;
-    border-top: 1px solid #d1cece;
-    position: absolute;
-    bottom: 191px;
-} */
+    opacity: 0;
+} 
