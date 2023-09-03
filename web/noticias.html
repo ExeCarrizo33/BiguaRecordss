@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contactos</title>
+    <title>Noticias</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-   <link rel="stylesheet" href="../estilo/estilo.css">
+  <link rel="stylesheet" href="../estilo/estilo.css">
 </head>
 <body>
-
     <header class="header">
         <div class="logo-name-container">
           <div class="logo">
@@ -47,8 +46,8 @@
           </div>
     
           <ul class="nav-links">
-            <li><a href="index.html">Temas</a></li>
-            <li><a href="artistas.html">Artistas</a></li>
+            <li><a href="/web/">Temas</a></li>
+            <li><a href="/web/artistas.html">Artistas</a></li>
             <li><a href="noticias.html">Noticias</a></li>
             <li><a href="/web/contacto.html">Contacto</a></li>
           </ul>
@@ -56,26 +55,50 @@
         </nav>
       </header>
 
-      <section class="seccion_contactos">
 
-        <div class="contenedor_titulo">
-            <h2 class="titulo">contactos</h2>
-            <p>¿Enviar demostraciones? Solo aceptamos enlaces (sin copias físicas o Mp3, por favor).</p>
-        </div>
+    <main>
+        <section class="seccion-noticias ">
+            <h2 class="titulo">noticias</h2>
 
-        <div class="contenedor_input">
-          <div class="input_nombre_mail">
-            <input type="text" name="nombre" placeholder="Nombre">
-            <input type="email" name="email" placeholder="Email">
-          </div>
-          <input type="text" name="telefono" placeholder="Teléfono">
-          <input type="text" name="mensaje" placeholder="Escribe tu mensaje acá...">
-          <button>Envíar</button>
-        </div>
-        
-      </section>
+            <div class="cartas">
+                <div class="carta-noticia">
+                    <img src="/images/dukiRiver.jpg" alt="">
+                    <div class="contenido-carta">
+                        <h5>Duki en River</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima aliquam cum sit debitis at veniam quia voluptas.</p>
+                        <button class="boton-noticia">Ir</button>
+                    </div>
+                </div>
+                <div class="carta-noticia">
+                    <img src="/images/tuDuoFav.webp" alt="">
+                    <div class="contenido-carta">
+                        <h5>Tu Dúo Favorito</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima aliquam cum sit debitis at veniam quia voluptas.</p>
+                        <button class="boton-noticia">Ir</button>
+                    </div>
+                </div>
+                <div class="carta-noticia">
+                    <img src="/images/bizarrap.jpg" alt="">
+                    <div class="contenido-carta">
+                        <h5>De su Cuarto al Mundo</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima aliquam cum sit debitis at veniam quia voluptas.</p>
+                        <button class="boton-noticia">Ir</button>
+                    </div>
+                </div>
+                <div class="carta-noticia">
+                    <img src="/images/nickiPluma.webp" alt="">
+                    <div class="contenido-carta">
+                        <h5>¿Nicki y un Nuevo Novio?</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima aliquam cum sit debitis at veniam quia voluptas.</p>
+                        <button class="boton-noticia">Ir</button>
+                    </div>
+                </div>
+            </div>
 
-      <footer>
+        </section>
+    </main>
+
+    <footer>
         <div class="container">
           <div class="logo">
             <p><a href="">biguá</a><br>records</p>
@@ -90,10 +113,6 @@
           <a href="">Eseba</a>
         </p>
       </footer>
-    
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-        crossorigin="anonymous"></script>
     
 </body>
 </html>

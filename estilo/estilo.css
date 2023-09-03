@@ -10,10 +10,10 @@
 .header {
     background-color: white;
     display: flex;
+    padding: 70px;
     justify-content: space-between;
     align-items: center;
-    height: 85px;
-    padding: 60px 10%;
+    height: 70px;
     width: 100%;
     position: fixed;
     z-index: 200;
@@ -163,6 +163,7 @@ h2.titulo {
 .container_grilla{
     position: relative;
     height: fit-content;
+    height: 100vh;
 }
 
 
@@ -279,7 +280,7 @@ h2.titulo {
 footer {
     background-color: black;
     width: 100%;
-    height: 300px;
+    height: 290px;
     position: static;
     margin-top: 5vh;
 }
@@ -301,7 +302,7 @@ footer .container {
     text-decoration: none;
     font-size: 40px;
     position: absolute;
-    top: 113px;
+    top: 110px;
     transition: font-size .4s;
 }
 
@@ -411,6 +412,68 @@ footer .piso a {
     font-size: 17px;
 }
 
+/* NOTICIAS */
 
+.seccion-noticias{
+    height: 130vh;
+}
 
+.cartas{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    row-gap: 50px;
+}
 
+.carta-noticia{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    border: 1px solid rgba(0, 0, 0, 0.355);
+    border-radius: 5px;
+}
+
+.contenido-carta{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    position: relative;
+    background-color: white;
+}
+
+.carta-noticia img{
+    width: 35%;
+}
+
+.contenido-carta h5{
+    font-size: 25px;
+}
+
+.contenido-carta p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boton-noticia{
+    background-color: rgb(118, 45, 221);
+    border: 1px solid rgba(0, 0, 0, 0.355);
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+    transition: background-color 0.3s ease;
+}
+
+.boton-noticia:hover{
+    background-color: white;
+    color: rgb(118, 45, 221);
+}
+
+.boton-noticia:active {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
