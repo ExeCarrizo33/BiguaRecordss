@@ -46,11 +46,39 @@
     list-style: none;
 }
 
+.redes ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 13px;
+    padding-right: 33px;
+}
+
+.header nav .redes-botones {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    text-align: right;
+    margin: 10px 30px;
+}
+
+.boton-inicio-registro{
+    /* border: 1px solid rgb(118, 45, 221); */
+    border: none;
+    /* border-radius: 2px; */
+    height: 30px;
+    background-color: white;
+    color: rgb(118, 45, 221);
+    transition: .3s ease-in-out;
+}
+
+.boton-inicio-registro:hover{
+    font-size: 16.5px;
+}
+
 .header .nav-links li {
     display: inline-block;
-    padding: 0 20px;
-
-
+    padding: 0 15px;
 }
 
 .header .nav-links a {
@@ -70,7 +98,7 @@
 }
 
 
-nav .redes li {
+nav .redes-botones li {
     list-style: none;
     display: inline-block;
     padding: 0 6px;
@@ -142,11 +170,6 @@ span{
     font-size: 48px;
     color: black;
     flex-direction: column;
-}
-
-.header nav .redes {
-    text-align: right;
-    margin: 10px 30px;
 }
 
 h2.titulo {
@@ -446,10 +469,12 @@ footer .piso a {
 
 .carta-noticia img{
     width: 35%;
+    object-fit: cover;
 }
 
 .contenido-carta h5{
     font-size: 25px;
+    
 }
 
 .contenido-carta p{
@@ -477,3 +502,7 @@ footer .piso a {
     transform: scale(1.1);
     transition: transform 0.3s ease;
   }
+
+  /* FORMULARIO */
+
+  

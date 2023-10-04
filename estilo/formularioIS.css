@@ -1,0 +1,78 @@
+body{
+    background-color: white;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Wix Madefor Text', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container-inicio{
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    height: 50vh;
+    background-color: (24, 23, 23, 0.998);
+    border: 2px solid rgb(118, 45, 221);
+    border-radius: 15px;
+    padding: 30px;
+    position: relative;
+    top: 140px;
+}
+
+.container-inicio input{
+    width: 300px;
+    margin: 5px auto;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid rgb(118, 45, 221);
+    background-color: white;
+    color: rgb(55, 51, 51);
+}
+
+.input-nombre{
+    margin: 30px auto;
+}
+
+.input-contraseña{
+    margin: 20px auto;
+
+}
+
+.container-inicio button{
+    width: 320px;
+    background-color: white;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    color: rgb(55, 51, 51);
+    position: absolute;
+    bottom: 40px;
+    right: 42px;
+    border: 2px solid rgb(118, 45, 221);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container-inicio button:hover{
+    border-color: rgb(144, 125, 169);
+}
+
+input::placeholder{
+    color: rgba(0, 0, 0, 0.423);
+}
+
+input:focus{
+    outline: none;
+}
+
+input:hover{
+    border-color: rgb(147, 128, 174);
+}
+
+.error{
+    font-size: 11px;
+    width: 300px;
+    margin: 0 9px;
+    color: red;
+}
