@@ -11,18 +11,19 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    height: 50vh;
+    height: 65vh;
     background-color: (24, 23, 23, 0.998);
     border: 2px solid rgb(118, 45, 221);
     border-radius: 15px;
     padding: 30px;
     position: relative;
     top: 140px;
+    margin-top: -120px;
 }
 
 .container-inicio input{
     width: 300px;
-    margin: 5px auto;
+    margin: -5px auto;
     padding: 10px;
     border: none;
     border-bottom: 2px solid rgb(118, 45, 221);
@@ -31,6 +32,10 @@ body{
 }
 
 .input-nombre{
+    margin: 30px auto;
+}
+
+.input-apellido{
     margin: 30px auto;
 }
 
@@ -52,6 +57,7 @@ body{
     border: 2px solid rgb(118, 45, 221);
     border-radius: 10px;
     cursor: pointer;
+    
 }
 
 .container-inicio button:hover{
@@ -75,4 +81,34 @@ input:hover{
     width: 300px;
     margin: 0 9px;
     color: red;
+}
+
+
+
+#content .bigua {
+    color: rgb(118, 45, 221);
+    margin: 0;
+    top: -24px;
+    font-size: 50px;
+}
+
+#content .records {     
+    color: black;
+    margin: 0;
+    top: -3px;
+    font-size: 50px;
+}
+
+#content { 
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    line-height: 40px;
+    
+
+}
+
+.tituloR {
+  margin: 0 auto;
 }
